@@ -1,0 +1,73 @@
+.pokedex-card {
+  background: url('https://e1.pxfuel.com/desktop-wallpaper/197/19/desktop-wallpaper-720x1280-pokedex-phone-by-rhlpixels-pokemon-pokedex-background-thumbnail.jpg') no-repeat center center;
+  background-size: contain;
+  width: 250px;    
+  height: 400px;   
+  position: relative;
+  border: none !important; 
+  background-color: transparent !important;
+}
+
+.pokedex-screen {
+  position: absolute;
+  top: 22%;    
+  left: 12%;
+  width: 75%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemon-img {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemon-name {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+  color: #333;
+  font-family: 'Courier New', Courier, monospace; /* Dá um ar de tela digital */
+}
+
+
+.pokedex-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; /* Distribui melhor os itens na tela */
+  padding: 5px;
+}
+
+.pokemon-id {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #222;
+}
+
+.types-container {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.type-badge {
+  font-size: 0.6rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background: #777; /* Cor padrão */
+}
+
+.fire { background-color: #F08030; }
+.water { background-color: #6890F0; }
+.grass { background-color: #78C850; }
+.electric { background-color: #F8D030; color: #000; }
+.psychic { background-color: #F85888; }
+.poison { background-color: #A040A0; }
