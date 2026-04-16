@@ -30,7 +30,7 @@
   text-transform: capitalize;
   margin: 0;
   color: #333;
-  font-family: 'Courier New', Courier, monospace; /* Dá um ar de tela digital */
+  font-family: 'Courier New', Courier, monospace; 
 }
 
 
@@ -38,7 +38,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around; /* Distribui melhor os itens na tela */
+  justify-content: space-around; 
   padding: 5px;
 }
 
@@ -62,7 +62,7 @@
   text-transform: uppercase;
   font-weight: bold;
   color: white;
-  background: #777; /* Cor padrão */
+  background: #777; 
 }
 
 .fire { background-color: #F08030; }
